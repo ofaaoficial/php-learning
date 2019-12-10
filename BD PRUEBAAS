@@ -1,0 +1,15 @@
+create database pruebas;
+use pruebas;
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL PRIMARY KEY,
+  `usuario` varchar(15) NOT NULL,
+  `nombre` varchar(15) NOT NULL,
+  `contrasenia` varchar(15) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `usuarios` (`id`, `usuario`, `nombre`, `contrasenia`) VALUES
+(1, 'ofaa', 'Oscar', '123'),
+(2, 'santiago', 'santiago', '123'),
+(3, 'cristian', 'cristian', '123');
+

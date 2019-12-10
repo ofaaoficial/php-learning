@@ -1,0 +1,6 @@
+drop database if exists pruebas;
+create database pruebas;
+use pruebas;
+create table datos_usuarios (ID INT PRIMARY KEY AUTO_INCREMENT,Nombres varchar(20),Apellidos varchar(20));
+INSERT INTO datos_usuarios (Nombres,Apellidos) VALUES ('Oscar','Amado');
+INSERT INTO datos_usuarios (Nombres,Apellidos) VALUES ('Santiago','Amado');
